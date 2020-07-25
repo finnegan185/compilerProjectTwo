@@ -1,0 +1,14 @@
+-- Multiple integer variable initialization
+-- Syntax is instead of equal sign error
+-- Missing endif
+
+function main returns integer;
+    b: integer is 5 + 1 - 4;
+    c: integer is 2 + 3;
+begin
+    if c < a then
+        c is 5.0;
+    else
+        c = 2;
+    
+end;

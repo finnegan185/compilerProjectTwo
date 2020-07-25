@@ -1,0 +1,25 @@
+// File: discus5Program.txt
+// Author: Zack Finnegan
+// Date: 7/21/2020
+
+function main a: boolean, b: integer returns real;
+    h: boolean is not a;
+    p: real is 4.2e3;
+    r: integer is 10;
+  begin
+    if r > 9 and r <= 100 and h = true then
+      case b is
+        when 1 => p - 30 * 5 / 4;
+	when 2 => 6 rem 8 + 100;
+	others => a;
+      endcase;
+    else
+      if h /= true and b >= 10 and p < r or not a = true then
+        p ** 3;
+      else
+        reduce +
+          b + r;
+        endreduce;
+      endif;
+    endif;
+  end;
